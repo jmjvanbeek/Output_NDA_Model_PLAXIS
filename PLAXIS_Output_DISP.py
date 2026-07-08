@@ -42,22 +42,14 @@ MOTION_LIST = [
 
 # Node pairs to process
 NODE_PAIRS = [
-    ("CN_5", "CN_7"),
-    ("CN_1", "CN_7"),
-    ("CN_4", "CN_7"),
-    ("CN_3", "CN_7"),
-    ("CN_2", "CN_7"),
-    ("CN_6", "CN_7")
+    ("CN_1", "CN_3"),
+    ("CN_2", "CN_3"),
 ]
 
 # Cross-sections (Ux only)
 CROSS_SECTIONS = [
-    ("Left", -67.88, 4.13, -92.00),
-    ("Island B crest", 125, 5, -92.00),
-    ("Island B toe", 167.5, -4,  -92.00),
-    ("Island A toe", 219.5, -4, -92.00),
-    ("Island A crest", 263.8, 5, -92.00),
-    ("Right", 453.0, 4.13, - 92.00)
+    ("Crest", 127.8, 6.04, -92.00),
+    ("Toe", 217.4, -12.79,  -92.00),
 ]
 
 OUT_DIR = r"C:\Users\924878\OneDrive - Haskoning\PycharmProjects\PLAXIS\Result_Displacement"
