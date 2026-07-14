@@ -32,9 +32,9 @@ INPUT_PORT = 10000
 # USER INPUT
 # ------------------------------------------------------------
 MOTION_LIST = [
-    "Motion_2000067",
-    "Motion_4032463",
-    "Motion_6001145",
+    "Motion_4869",
+    #"Motion_4032463",
+    #"Motion_6001145",
     #"Motion_188",
     #"Motion_78",
     #"Motion_78",
@@ -49,7 +49,7 @@ NODE_PAIRS = [
 # Cross-sections (Ux only)
 CROSS_SECTIONS = [
     ("Crest", 127.8, 6.04, -92.00),
-    ("Toe", 217.4, -12.79,  -92.00),
+    ("Toe", 211.3, -12.76,  -92.00),
 ]
 
 OUT_DIR = r"C:\Users\924878\OneDrive - Haskoning\PycharmProjects\PLAXIS\Result_Displacement"
